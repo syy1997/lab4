@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
   pinMode(2, OUTPUT);
 
   while(1) {
-    printf("Waiting for reset\n");
-    while(digitalRead(0) == 1){
+printf("Waiting for reset\n");
+while(digitalRead(0) == 1){
 printf("Got a 1\n");
 digitalWrite(2,HIGH);
 digitalWrite(1,LOW);
